@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* index.jsp */
+section.wrap {
+	height: 500px;
+	border-bottom: 1px solid #ccc;
+}
+
+/* default.jsp */
+
+/* join.jsp */
+table.join, table.info {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+
+table.join tr, table.info tr {
+	height: 40px;
+}
+
+/* login.jsp */
+table.login {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 200px;
+}
+
+table.login tr {
+	height: 40px;
+}
+
+/* default.jsp */
+h1.default {
+	text-align: center;
+	height: 500px;
+	line-height: 500px;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource 
+		name="jdbc/OracleDB" 
+		auth="container"
+		type="javax.sql.DataSource"
+		factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" 
+		driverClassName="oracle.jdbc.driver.OracleDriver"
+		url="jdbc:oracle:thin:@localhost:1521:orcl"  
+		username="java"
+		password="java"
+		maxActive="100"
+		maxIdle="10" />
+</Context>
+
+
+
+
+
